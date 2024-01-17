@@ -1,5 +1,5 @@
 import React, { useEffect} from "react";
-import { useState } from "react";
+// import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import AOS from "aos";
@@ -25,7 +25,7 @@ const App = () => {
       element.classList.remove("dark");
       localStorage.setItem("theme", "light");
     }
-  }, [theme]);
+  }, [theme,element.classList]);
   // AOS Initialization
   React.useEffect(()=>{
     AOS.init({
