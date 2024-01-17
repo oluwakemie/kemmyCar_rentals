@@ -51,7 +51,7 @@ const CarList = () => {
                   <h1 className="text-primary font-semibold ">{data.name}</h1>
                   <div className="flex justify-between items-center text-xl font-semibold" >
                     <p>${data.price}/Day</p>
-                    <a href="#">Details</a>
+                    <a href="details">Details</a>
                   </div>
                 </div>
                 <p className="text-xl font-semibold absolute top-0 left-3"></p>

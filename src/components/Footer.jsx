@@ -48,15 +48,15 @@ const Footer = () => {
             {/* social handles */}
 
             <div className="flex items-center gap-3 mt-6">
-              <a href="#">
+              <a href="box">
                 {" "}
                 <FaInstagram className="text-3xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
+              <a href="box">
                 {" "}
                 <FaFacebook className="text-3xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
+              <a href="box">
                 {" "}
                 <FaLinkedin className="text-3xl hover:text-primary duration-300" />
               </a>
