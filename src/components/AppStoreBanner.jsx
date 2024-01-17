@@ -31,10 +31,10 @@ const AppStoreBanner = () => {
               Voluptates?
             </p>
             <div className="flex flex-wrap justify-center items-center gap-4 ">
-              <a href="#">
+              <a href="appstore">
                 <img src={PlayStoreImg} alt="" className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"/>
               </a>
-              <a href="#">
+              <a href="appstore">
                 <img src={AppStoreImg} alt="" className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]" />
               </a>
             </div>
